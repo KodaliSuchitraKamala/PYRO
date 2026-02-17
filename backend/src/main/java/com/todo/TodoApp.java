@@ -8,7 +8,7 @@ import java.util.List;
 @SpringBootApplication
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin(origins = "*") // Critical: allows React to talk to Java
+@CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")
 public class TodoApp {
 
     private final TodoRepository repository;
