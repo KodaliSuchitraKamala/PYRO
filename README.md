@@ -1,5 +1,5 @@
 # Todo Application - Full Stack (Spring Boot + React)
-
+ 
 A simple Todo application built with Spring Boot backend and React frontend.
 
 ## Project Structure
