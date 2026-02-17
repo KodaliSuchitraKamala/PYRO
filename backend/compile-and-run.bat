@@ -1,0 +1,6 @@
+@echo off
+echo Compiling with Spring Boot dependencies...
+javac -cp "lib\*" -d . src\*.java
+
+echo Running Todo App...
+java -cp ".;lib\*" com.todo.TodoApp
