@@ -163,4 +163,3 @@ If you prefer to use the original Spring Boot version:
    ```
 
 The Spring Boot version includes H2 database console at `http://localhost:8080/h2-console`
-# PYRO
